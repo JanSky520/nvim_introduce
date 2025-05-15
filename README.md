@@ -1,2 +1,3 @@
 # nvim_introduce
-neovim 的详细中文介绍文档，总结了用户手册的所有内容，通俗易懂。
+把晦涩难懂的 neovim 用户手册浓缩出来，只提炼有用的，好用的信息做成笔记，让同学们真正学会使用 neovim。
+[第一部分：快速入门](./Getting_Srarted.md) 
