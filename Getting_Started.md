@@ -54,7 +54,7 @@
 
 # 初始 init.vim 配置文件
 ---
-+ 以下是一些简单的配置
++ 以下是一些简单的配置。
   ```vim
   set ignorecase        " 设置忽略大小写
   set backup            " 设置备份
@@ -67,8 +67,12 @@
   colorscheme evening   " 设置一个名为 evening 的主题
   ```
 
-
-
+# 文件操作
+* 普通模式下可以通过输入 **:edit path/file.txt** 打开一个新的任意文件（注意要先保存当前文件才可打开新文件）。
+* 在终端里可通过 neovim 一次性打开多个文件，并通过 **:next** 命令切换下一个文件，__:previous__ 命令切换上一个。
+  ```sh
+  nvim one.txt two.txt three.txt
+  ```
 
 
 
